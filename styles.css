@@ -1,18 +1,10 @@
-.card {
-     width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
- }
-
- .box {
+.box {
      width: 300px;
      border: 5px solid rgb(0, 0, 0);
      padding: 20px;
     margin: 20px;
-    background: rgb(226,161,2);
-background: linear-gradient(90deg, rgba(226,161,2,1) 0%, rgb(252, 119, 109) 27%, rgba(212,255,0,1) 100%);
-
+    background: rgb(251,199,63);
+background: radial-gradient(circle, rgba(251,199,63,1) 64%, rgba(234,252,70,1) 100%);
  }
 
  .box-header {
@@ -21,34 +13,3 @@ background: linear-gradient(90deg, rgba(226,161,2,1) 0%, rgb(252, 119, 109) 27%,
  }
 
 
-
-
- 
- .card_cover {
-     height: 150px;
-     width: 100%;
- }
-
- .card_content {
-     /* Take available height */
-     flex: 1;
- }
-
- .container {
-     display: flex;
- }
-
- .container__column {
-     flex: 1;
-     /* Space between columns */
-     margin: 0 8px;
-
-     /* Layout each column */
-     display: flex;
-     flex-direction: column;
- }
-
- .container__content {
-     /* Take available height */
-     flex: 1;
- }
