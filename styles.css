@@ -36,16 +36,14 @@ align-items: center;
     font-weight: bold;
     text-decoration: none;
     color: black;
+    padding: 5px;
+    width: 10px;
     transition: all 200ms ease-in;
 }
 
 .nav-item a:hover {
 
     background-color: lightgray;
-    padding: 0px 2px;
-    width: 10px;
-
-   
 
 }
 
