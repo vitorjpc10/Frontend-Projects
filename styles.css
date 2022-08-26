@@ -47,13 +47,91 @@ align-items: center;
 
 }
 
+.project-selection{
+
+border: 1px black solid;
+
+border-left:none;
+border-right: none;
+
+margin-left: 2rem;
+margin-right: 2rem;
+
+
+
+justify-content: center;
+
+}
+
+.project-selection-top{
+
+    border-bottom: none;
+    padding-top: 1rem;
+}
+
+.project-selection-bottom{
+
+    border-top: none;
+    padding-bottom: 1rem;
+}
+
 .project-item-picture{
 
+border: 4px solid rgb(0, 0, 0);
+border-bottom:none;
+box-shadow: 0px 0px 20px black;
+
+
+}
+
+.project-item-picture img{
+    
+    margin-bottom: -4px;
+    height: 300px;
+    width: 200px;
+    
 }
 
 .project-item-description{
+border: 4px solid rgb(0, 0, 0);
+border-top:none;
+box-shadow: 0px 0px 20px black;
+height: 300px;
+width: 200px;
+
+background-color: rgba(236, 213, 162, 0.829);
 
 }
+
+.project-item-description a{
+    font-weight: bold;
+    text-decoration: none;
+
+    color: rgb(255, 208, 0);
+    
+    -webkit-text-stroke:1px rgb(0, 0, 0);
+    font-size: 30px;
+    font-stretch: 2rem;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Fantasy';
+
+
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom: 5px;
+
+    transition: all 300ms ease-in;
+}
+
+.project-item-description a:hover{
+    background-color: rgb(172, 172, 140);
+    color: rgb(255, 174, 0);
+
+    
+}
+
 
 
 
